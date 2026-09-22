@@ -1,6 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { PageLayout, PageHero, Section } from "@/components/site/PageLayout";
-import { bankDetails, earlyBirdFees, normalFees } from "@/data/conference";
+import { earlyBirdFees, normalFees } from "@/data/conference";
 
 export const Route = createFileRoute("/registration")({
   head: () => ({
@@ -87,24 +87,13 @@ function Registration() {
 
       <section className="bg-surface py-4">
         <Section title="Payment Details">
-          <div className="card-elevated max-w-2xl overflow-hidden">
-            <table className="w-full text-left text-sm">
-              <tbody>
-                {bankDetails.map(([k, v], i) => (
-                  <tr key={k} className={i % 2 ? "bg-secondary/40" : ""}>
-                    <th scope="row" className="px-6 py-3 font-medium text-foreground">
-                      {k}
-                    </th>
-                    <td className="px-6 py-3 font-mono text-muted-foreground">{v}</td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
+          <div className="card-elevated max-w-2xl p-6">
+            <p className="text-sm text-muted-foreground">Updating soon</p>
           </div>
           <p className="mt-4 text-sm text-muted-foreground">
             After transferring the fee, email the transaction reference and paper ID to{" "}
-            <a className="font-medium text-navy underline" href="mailto:guptam@nitj.ac.in">
-              guptam@nitj.ac.in
+            <a className="font-medium text-navy underline" href="mailto:nitcom.cs@nitj.ac.in">
+              nitcom.cs@nitj.ac.in
             </a>
             .
           </p>

@@ -97,8 +97,8 @@ function Cfp() {
       <Section title="Contact">
         <p className="text-sm text-muted-foreground">
           For queries, write to the organising committee at{" "}
-          <a className="font-medium text-navy underline" href="mailto:guptam@nitj.ac.in">
-            guptam@nitj.ac.in
+          <a className="font-medium text-navy underline" href="mailto:nitcom.cs@nitj.ac.in">
+            nitcom.cs@nitj.ac.in
           </a>{" "}
           or visit{" "}
           <a

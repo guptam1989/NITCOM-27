@@ -39,13 +39,13 @@ function Contact() {
               lines: [
                 "Department of Computer Science & Engineering",
                 "Dr B R Ambedkar NIT Jalandhar",
-                "N.I.T. Post Office, Jalandhar (Punjab) - 144 027",
+                "N.I.T. Post Office, Jalandhar (Punjab) - 144008",
               ],
             },
             {
               icon: Mail,
               title: "Email",
-              lines: ["guptam@nitj.ac.in"],
+              lines: ["nitcom.cs@nitj.ac.in"],
             },
             {
               icon: Phone,

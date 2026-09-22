@@ -72,10 +72,6 @@ export const normalFees = [
   { type: "Attendee", indian: "\u20B96,000", foreign: "US$ 150" },
 ];
 
-export const bankDetails = [
-  ["Payment instructions", "Contact guptam@nitj.ac.in for secure payment details"],
-];
-
 export type CommitteeGroup = { title: string; members: string[] };
 
 export const leadership: CommitteeGroup[] = [

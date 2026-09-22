@@ -21,7 +21,7 @@ export function SiteFooter() {
             <span>
               Dr B R Ambedkar National Institute of Technology
               <br />
-              N.I.T. Post Office, Jalandhar (Punjab) - 144 027
+              N.I.T. Post Office, Jalandhar (Punjab) - 144008
             </span>
           </p>
         </div>
@@ -31,8 +31,8 @@ export function SiteFooter() {
           <ul className="mt-3 space-y-2 text-sm text-navy-foreground/75">
             <li className="flex items-center gap-2">
               <Mail className="h-4 w-4 text-gold" />
-              <a className="hover:text-navy-foreground" href="mailto:guptam@nitj.ac.in">
-                guptam@nitj.ac.in
+              <a className="hover:text-navy-foreground" href="mailto:nitcom.cs@nitj.ac.in">
+                nitcom.cs@nitj.ac.in
               </a>
             </li>
             <li className="flex items-center gap-2">
