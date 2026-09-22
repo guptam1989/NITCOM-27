@@ -3,7 +3,7 @@ import react from "@vitejs/plugin-react";
 import tailwindcss from "@tailwindcss/vite";
 
 export default defineConfig({
-  base: "/polished-web-magic-25/",
+  base: "/NITCOM-27/",
   plugins: [react(), tailwindcss()],
   resolve: {
     tsconfigPaths: true,
