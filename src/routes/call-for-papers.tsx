@@ -33,7 +33,7 @@ function Cfp() {
 
       <Section>
         <p className="max-w-4xl leading-relaxed text-muted-foreground">
-          The Department of Computer Science and Engineering at Dr. B. R. Ambedkar National
+          The Department of Computer Science and Engineering at Dr B R Ambedkar National
           Institute of Technology, Jalandhar invites submissions to NITCOM-2027. The conference
           provides a collaborative platform for researchers, academicians, scientists and industry
           professionals to share innovative contributions and advancements in cutting-edge

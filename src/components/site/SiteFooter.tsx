@@ -9,7 +9,7 @@ export function SiteFooter() {
           <h3 className="font-display text-xl font-semibold">NITCOM-2027</h3>
           <p className="mt-3 text-sm text-navy-foreground/75">
             International Conference on Next-Gen Intelligent Technologies in Computing and
-            Communication, hosted by the Department of Computer Science &amp; Engineering, Dr. B. R.
+            Communication, hosted by the Department of Computer Science &amp; Engineering, Dr B R
             Ambedkar National Institute of Technology Jalandhar
           </p>
         </div>
@@ -19,7 +19,7 @@ export function SiteFooter() {
           <p className="mt-3 flex gap-2 text-sm text-navy-foreground/75">
             <MapPin className="mt-0.5 h-4 w-4 shrink-0 text-gold" />
             <span>
-              Dr. B. R. Ambedkar National Institute of Technology
+              Dr B R Ambedkar National Institute of Technology
               <br />
               N.I.T. Post Office, Jalandhar (Punjab) - 144 027
             </span>

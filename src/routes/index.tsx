@@ -29,7 +29,7 @@ function Index() {
       <section className="relative overflow-hidden">
         <img
           src={`${import.meta.env.BASE_URL}campus.jpg`}
-          alt="Dr. B. R. Ambedkar National Institute of Technology Jalandhar campus"
+          alt="Dr B R Ambedkar National Institute of Technology Jalandhar campus"
           className="absolute inset-0 h-full w-full object-cover"
         />
         <div className="hero-overlay relative">

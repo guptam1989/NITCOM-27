@@ -8,7 +8,7 @@ export const Route = createFileRoute("/about")({
       {
         name: "description",
         content:
-          "About the host: Dr. B. R. Ambedkar NIT Jalandhar and its Department of Computer Science & Engineering, organisers of NITCOM-2027.",
+          "About the host: Dr B R Ambedkar NIT Jalandhar and its Department of Computer Science & Engineering, organisers of NITCOM-2027.",
       },
       { property: "og:title", content: "About NITCOM-2027" },
       {
@@ -27,14 +27,14 @@ function About() {
       <PageHero
         eyebrow="About"
         title="An Institute of National Importance"
-        description="NITCOM-2027 is organised by the Department of Computer Science & Engineering at Dr. B. R. Ambedkar National Institute of Technology, Jalandhar."
+        description="NITCOM-2027 is organised by the Department of Computer Science & Engineering at Dr B R Ambedkar National Institute of Technology, Jalandhar."
       />
 
-      <Section title="Dr. B. R. Ambedkar NIT Jalandhar">
+      <Section title="Dr B R Ambedkar NIT Jalandhar">
         <div className="grid gap-10 md:grid-cols-[1.1fr_1fr] md:items-center">
           <div className="space-y-4 leading-relaxed text-muted-foreground">
             <p>
-              Dr. B. R. Ambedkar National Institute of Technology was established in 1987 as a
+              Dr B R Ambedkar National Institute of Technology was established in 1987 as a
               Regional Engineering College and was granted the status of National Institute of
               Technology (Deemed University) by the Government of India on October 17, 2002 under
               the aegis of the Ministry of Education, New Delhi.

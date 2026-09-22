@@ -38,7 +38,7 @@ function Contact() {
               title: "Address",
               lines: [
                 "Department of Computer Science & Engineering",
-                "Dr. B. R. Ambedkar NIT Jalandhar",
+                "Dr B R Ambedkar NIT Jalandhar",
                 "N.I.T. Post Office, Jalandhar (Punjab) - 144 027",
               ],
             },
