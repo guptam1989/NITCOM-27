@@ -125,13 +125,21 @@ function Index() {
             <article key={t.id} className="card-elevated flex flex-col p-6">
               <span className="eyebrow">{t.id}</span>
               <h3 className="mt-2 font-display text-lg font-semibold text-navy">{t.title}</h3>
-              <p className="mt-3 flex-1 text-sm leading-relaxed text-muted-foreground">
-                {t.description}
-              </p>
-              <p className="mt-4 border-t border-border pt-3 text-xs text-muted-foreground">
-                <span className="font-semibold text-foreground">Track Chair: </span>
-                {t.chair}
-              </p>
+              <ul className="mt-3 flex-1 list-disc space-y-2 pl-5 text-sm leading-relaxed text-muted-foreground">
+                {t.topics.map((topic) => (
+                  <li key={topic}>{topic}</li>
+                ))}
+              </ul>
+              <div className="mt-4 border-t border-border pt-3 text-xs text-muted-foreground">
+                <span className="font-semibold text-foreground">
+                  {t.chairs.length === 1 ? "Track Chair:" : "Track Chairs:"}
+                </span>
+                <ul className="mt-2 space-y-2">
+                  {t.chairs.map((chair) => (
+                    <li key={chair}>{chair}</li>
+                  ))}
+                </ul>
+              </div>
             </article>
           ))}
         </div>

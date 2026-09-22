@@ -10,40 +10,52 @@ export const importantDates = [
 
 export const tracks = [
   {
-    id: "Track 1",
-    title: "Next Generation Technology Trends",
-    chair: "Dr. Sanjeev Sofat, Professor, PEC Chandigarh",
-    description:
-      "Internet of Things, Blockchain, Cyber-Physical Systems, Digital Transformation, Metaverse, Smart Cities and Machine-to-Machine systems.",
+    "id": "Track 1",
+    "title": "Next-Generation Technology Trends",
+    "chairs": [
+      "Dr. Sanjeev Sofat, Professor, PEC Chandigarh",
+      "Dr. Pilli Emmanuel Shubhakar, Professor, MNIT Jaipur"
+    ],
+    "topics": [
+      "Internet of Things (IoT) and AIoT",
+      "Digital Twins and Cyber-Physical Systems",
+      "Blockchain and Distributed Ledger Technologies",
+      "Smart Cities and Smart Infrastructure",
+      "Autonomous Systems and Robotics",
+      "Quantum and Emerging Technologies"
+    ]
   },
   {
-    id: "Track 2",
-    title: "Artificial Intelligence and Data Science",
-    chair: "Dr. Mahesh Govil, Professor and Director, NIT Sikkim",
-    description:
-      "Data Analytics, Deep Learning, Neural Networks, Fuzzy Logic, Expert Systems, Agents and Multi-Agent Systems.",
+    "id": "Track 2",
+    "title": "Artificial Intelligence and Data Science",
+    "chairs": [
+      "Dr. Mahesh Govil, Professor and Director, NIT Sikkim"
+    ],
+    "topics": [
+      "Generative AI and Large Language Models (LLMs)",
+      "Agentic AI and Multi-Agent Systems",
+      "Deep Learning and Foundation Models",
+      "Multimodal AI and Computer Vision",
+      "Data Analytics and Big Data",
+      "Responsible, Explainable and Trustworthy AI"
+    ]
   },
   {
-    id: "Track 3",
-    title: "Computing",
-    chair: "Dr. Pilli Emmanuel Shubhakar, Professor, MNIT Jaipur",
-    description:
-      "High-Performance Computing, Cloud and Edge architectures, Quantum Computing and large-scale distributed systems.",
-  },
-  {
-    id: "Track 4",
-    title: "Security and Privacy",
-    chair: "Dr. Manoj Mishra, Professor, IIT Roorkee",
-    description:
-      "Cyber security concepts, digital forensics, intrusion detection, cryptography, trust management and privacy regulation.",
-  },
-  {
-    id: "Track 5",
-    title: "Communication",
-    chair: "Dr. Aditya Trivedi, Professor, ABV-IIITM Gwalior",
-    description:
-      "Connected machines, satellite communication systems, 4G/5G/6G network evolution and open spectrum solutions.",
-  },
+    "id": "Track 3",
+    "title": "Secure Networking and Privacy Technologies",
+    "chairs": [
+      "Dr. Manoj Mishra, Professor, IIT Roorkee",
+      "Dr. Aditya Trivedi, Professor, ABV-IIITM Gwalior"
+    ],
+    "topics": [
+      "Cybersecurity and AI Security",
+      "Privacy-Preserving Technologies and Data Protection",
+      "Zero-Trust Architecture and Cyber Resilience",
+      "5G/6G and Intelligent Communications",
+      "Post-Quantum Cryptography and Quantum-Safe Security",
+      "Edge, Cloud and IoT Security"
+    ]
+  }
 ];
 
 export const earlyBirdFees = [
