@@ -13,8 +13,8 @@ export const tracks = [
     "id": "Track 1",
     "title": "Next-Generation Technology Trends",
     "chairs": [
-      "Dr. Sanjeev Sofat, Professor, PEC Chandigarh",
-      "Dr. Pilli Emmanuel Shubhakar, Professor, MNIT Jaipur"
+      "Dr. Pilli Emmanuel Shubhakar, Professor, MNIT Jaipur",
+      "Dr. Sanjeev Sofat, Professor, PEC Chandigarh"
     ],
     "topics": [
       "Internet of Things (IoT) and AIoT",
