@@ -35,9 +35,10 @@ function Index() {
         <div className="hero-overlay relative">
           <div className="mx-auto max-w-6xl px-4 py-24 md:py-32">
             <p className="eyebrow">NIT Jalandhar Welcomes You</p>
-            <h1 className="mt-4 max-w-4xl font-display text-4xl font-semibold text-navy-foreground md:text-6xl">
-              International Conference on Next-Gen Intelligent Technologies in Computing and
-              Communication
+            <h1 className="mt-4 font-display text-4xl font-semibold text-navy-foreground md:text-5xl lg:text-6xl">
+              <span className="block">International Conference on</span>{" "}
+              <span className="block">Next-Gen Intelligent Technologies</span>{" "}
+              <span className="block">in Computing and Communication</span>
             </h1>
             <p className="mt-5 max-w-2xl text-lg text-navy-foreground/80">
               NITCOM-2027 brings together researchers, academicians and industry practitioners
