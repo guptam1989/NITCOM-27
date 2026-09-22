@@ -8,8 +8,8 @@
 ## Run locally
 
 ```bash
-git clone https://github.com/guptam1989/polished-web-magic-25.git
-cd polished-web-magic-25
+git clone https://github.com/guptam1989/NITCOM-27.git
+cd NITCOM-27
 npm install
 npm run dev
 ```
@@ -41,4 +41,4 @@ GitHub Pages**, or push a new commit to `main`.
 
 The published website URL is:
 
-<https://guptam1989.github.io/polished-web-magic-25/>
+<https://guptam1989.github.io/NITCOM-27/>
