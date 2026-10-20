@@ -16,6 +16,7 @@ import { Route as CallForPapersRouteImport } from './routes/call-for-papers'
 import { Route as CommitteeRouteImport } from './routes/committee'
 import { Route as ContactRouteImport } from './routes/contact'
 import { Route as RegistrationRouteImport } from './routes/registration'
+import { Route as SpeakersRouteImport } from './routes/speakers'
 import { Route as TravelRouteImport } from './routes/travel'
 
 const IndexRoute = IndexRouteImport.update({
@@ -53,6 +54,11 @@ const RegistrationRoute = RegistrationRouteImport.update({
   path: '/registration',
   getParentRoute: () => rootRouteImport,
 } as any)
+const SpeakersRoute = SpeakersRouteImport.update({
+  id: '/speakers',
+  path: '/speakers',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const TravelRoute = TravelRouteImport.update({
   id: '/travel',
   path: '/travel',
@@ -67,6 +73,7 @@ export interface FileRoutesByFullPath {
   '/committee': typeof CommitteeRoute
   '/contact': typeof ContactRoute
   '/registration': typeof RegistrationRoute
+  '/speakers': typeof SpeakersRoute
   '/travel': typeof TravelRoute
 }
 export interface FileRoutesByTo {
@@ -77,6 +84,7 @@ export interface FileRoutesByTo {
   '/committee': typeof CommitteeRoute
   '/contact': typeof ContactRoute
   '/registration': typeof RegistrationRoute
+  '/speakers': typeof SpeakersRoute
   '/travel': typeof TravelRoute
 }
 export interface FileRoutesById {
@@ -88,6 +96,7 @@ export interface FileRoutesById {
   '/committee': typeof CommitteeRoute
   '/contact': typeof ContactRoute
   '/registration': typeof RegistrationRoute
+  '/speakers': typeof SpeakersRoute
   '/travel': typeof TravelRoute
 }
 export interface FileRouteTypes {
@@ -100,6 +109,7 @@ export interface FileRouteTypes {
     | '/committee'
     | '/contact'
     | '/registration'
+    | '/speakers'
     | '/travel'
   fileRoutesByTo: FileRoutesByTo
   to:
@@ -110,6 +120,7 @@ export interface FileRouteTypes {
     | '/committee'
     | '/contact'
     | '/registration'
+    | '/speakers'
     | '/travel'
   id:
     | '__root__'
@@ -120,6 +131,7 @@ export interface FileRouteTypes {
     | '/committee'
     | '/contact'
     | '/registration'
+    | '/speakers'
     | '/travel'
   fileRoutesById: FileRoutesById
 }
@@ -131,6 +143,7 @@ export interface RootRouteChildren {
   CommitteeRoute: typeof CommitteeRoute
   ContactRoute: typeof ContactRoute
   RegistrationRoute: typeof RegistrationRoute
+  SpeakersRoute: typeof SpeakersRoute
   TravelRoute: typeof TravelRoute
 }
 
@@ -185,6 +198,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof RegistrationRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/speakers': {
+      id: '/speakers'
+      path: '/speakers'
+      fullPath: '/speakers'
+      preLoaderRoute: typeof SpeakersRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/travel': {
       id: '/travel'
       path: '/travel'
@@ -203,6 +223,7 @@ const rootRouteChildren: RootRouteChildren = {
   CommitteeRoute: CommitteeRoute,
   ContactRoute: ContactRoute,
   RegistrationRoute: RegistrationRoute,
+  SpeakersRoute: SpeakersRoute,
   TravelRoute: TravelRoute,
 }
 export const routeTree = rootRouteImport

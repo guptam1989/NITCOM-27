@@ -55,6 +55,9 @@ export function SiteFooter() {
         <div className="mx-auto flex max-w-6xl flex-wrap items-center justify-between gap-3 px-4 py-5 text-xs text-navy-foreground/60">
           <p>{"\u00A9"} 2027 NITCOM, NIT Jalandhar. All rights reserved.</p>
           <div className="flex gap-4">
+            <Link to="/speakers" className="hover:text-navy-foreground">
+              Speakers
+            </Link>
             <Link to="/call-for-papers" className="hover:text-navy-foreground">
               Call for Papers
             </Link>
@@ -70,4 +73,3 @@ export function SiteFooter() {
     </footer>
   );
 }
-

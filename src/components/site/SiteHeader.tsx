@@ -7,6 +7,7 @@ const nav = [
   { to: "/about", label: "About" },
   { to: "/call-for-papers", label: "Call for Papers" },
   { to: "/committee", label: "Committee" },
+  { to: "/speakers", label: "Speakers" },
   { to: "/registration", label: "Registration" },
   { to: "/author-guidelines", label: "Author Guidelines" },
   { to: "/travel", label: "Travel" },
@@ -39,14 +40,14 @@ export function SiteHeader() {
           </span>
         </Link>
 
-        <nav className="hidden items-center gap-1 lg:flex">
+        <nav className="hidden items-center gap-0 xl:flex">
           {nav.map((item) => (
             <Link
               key={item.to}
               to={item.to}
               activeOptions={{ exact: item.to === "/" }}
               activeProps={{ className: "text-navy after:scale-x-100" }}
-              className="relative px-3 py-2 text-sm font-medium text-muted-foreground transition-colors after:absolute after:inset-x-3 after:bottom-1 after:h-0.5 after:origin-left after:scale-x-0 after:bg-gold after:transition-transform hover:text-navy hover:after:scale-x-100"
+              className="relative whitespace-nowrap px-2 py-2 text-sm font-medium text-muted-foreground transition-colors after:absolute after:inset-x-2 after:bottom-1 after:h-0.5 after:origin-left after:scale-x-0 after:bg-gold after:transition-transform hover:text-navy hover:after:scale-x-100"
             >
               {item.label}
             </Link>
@@ -57,14 +58,14 @@ export function SiteHeader() {
           type="button"
           onClick={() => setOpen((v) => !v)}
           aria-label="Toggle navigation"
-          className="inline-flex h-10 w-10 items-center justify-center rounded-md border border-border text-navy lg:hidden"
+          className="inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-md border border-border text-navy xl:hidden"
         >
           {open ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
         </button>
       </div>
 
       {open && (
-        <nav className="border-t border-border bg-card px-4 py-2 lg:hidden">
+        <nav className="border-t border-border bg-card px-4 py-2 xl:hidden">
           {nav.map((item) => (
             <Link
               key={item.to}
@@ -80,4 +81,3 @@ export function SiteHeader() {
     </header>
   );
 }
-
