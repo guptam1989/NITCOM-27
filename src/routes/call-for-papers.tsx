@@ -9,7 +9,7 @@ export const Route = createFileRoute("/call-for-papers")({
       {
         name: "description",
         content:
-          "Submit to NITCOM-2027: three tracks, a 12-page recommended conference proceedings template and Microsoft CMT submission.",
+          "Submit to NITCOM-2027: four tracks, a 12-page recommended conference proceedings template and Microsoft CMT submission.",
       },
       { property: "og:title", content: "Call for Papers | NITCOM-2027" },
       {
@@ -42,7 +42,7 @@ function Cfp() {
       </Section>
 
       <Section title="Conference Tracks">
-        <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
+        <div className="grid gap-4 md:grid-cols-2">
           {tracks.map((t) => (
             <div key={t.id} className="card-elevated p-6">
               <span className="eyebrow">{t.id}</span>

@@ -10,54 +10,61 @@ export const importantDates = [
 
 export const tracks = [
   {
-    "id": "Track 1",
-    "title": "Next-Generation Technology Trends",
-    "chairs": [
-      "Dr. Pilli Emmanuel Shubhakar, Professor, MNIT Jaipur",
-      "Dr. Sanjeev Sofat, Professor, PEC Chandigarh"
+    id: "Track 1",
+    title: "Next-Generation Technologies and Intelligent Connected Systems",
+    chairs: ["Dr. Pilli Emmanuel Shubhakar, Professor, MNIT Jaipur"],
+    topics: [
+      "Internet of Things (IoT), AIoT, and smart infrastructure",
+      "Digital twins and cyber-physical systems",
+      "Blockchain and distributed ledger technologies",
+      "Smart cities and intelligent industrial systems",
+      "Autonomous systems, robotics, and human–autonomy collaboration",
+      "Quantum and emerging technologies, edge computing, and sustainable intelligent systems",
     ],
-    "topics": [
-      "Internet of Things (IoT) and AIoT",
-      "Digital Twins and Cyber-Physical Systems",
-      "Blockchain and Distributed Ledger Technologies",
-      "Smart Cities and Smart Infrastructure",
-      "Autonomous Systems and Robotics",
-      "Quantum and Emerging Technologies"
-    ]
   },
   {
-    "id": "Track 2",
-    "title": "Artificial Intelligence and Data Science",
-    "chairs": [
-      "Dr. Mahesh Govil, Professor and Director, NIT Sikkim"
+    id: "Track 2",
+    title: "Artificial Intelligence, Generative AI and Data Science",
+    chairs: ["Dr. Sanjeev Sofat, Professor, PEC Chandigarh"],
+    topics: [
+      "Generative AI, large language models (LLMs), and foundation models",
+      "Agentic AI, multi-agent systems, and advanced machine learning",
+      "Multimodal AI, computer vision, natural language processing, and speech intelligence",
+      "Data analytics, big data, and intelligent knowledge discovery",
+      "Edge AI, TinyML, federated learning, and resource-efficient AI",
+      "Responsible, explainable, trustworthy, and privacy-aware AI",
     ],
-    "topics": [
-      "Generative AI and Large Language Models (LLMs)",
-      "Agentic AI and Multi-Agent Systems",
-      "Deep Learning and Foundation Models",
-      "Multimodal AI and Computer Vision",
-      "Data Analytics and Big Data",
-      "Responsible, Explainable and Trustworthy AI"
-    ]
   },
   {
-    "id": "Track 3",
-    "title": "Secure Networking and Privacy Technologies",
-    "chairs": [
+    id: "Track 3",
+    title: "Secure Networking, Intelligent Communications and Privacy Technologies",
+    chairs: [
       "Dr. Manoj Mishra, Professor, IIT Roorkee",
-      "Dr. Aditya Trivedi, Professor, ABV-IIITM Gwalior"
+      "Dr. Aditya Trivedi, Professor, ABV-IIITM Gwalior",
     ],
-    "topics": [
-      "Cybersecurity and AI Security",
-      "Privacy-Preserving Technologies and Data Protection",
-      "Zero-Trust Architecture and Cyber Resilience",
-      "5G/6G and Intelligent Communications",
-      "Post-Quantum Cryptography and Quantum-Safe Security",
-      "Edge, Cloud and IoT Security"
-    ]
-  }
+    topics: [
+      "Cybersecurity, AI security, and adversarial robustness",
+      "Privacy-preserving technologies and data protection",
+      "Zero-trust architectures and cyber resilience",
+      "5G/6G, semantic communication, and AI-enabled wireless networks",
+      "Post-quantum cryptography and quantum-safe security",
+      "Edge, cloud, IoT, V2X, and UAV-assisted communication security",
+    ],
+  },
+  {
+    id: "Track 4",
+    title: "Autonomous, Multimodal and Real-Time Intelligent Systems",
+    chairs: ["Dr. Mahesh Govil, Professor and Director, NIT Sikkim"],
+    topics: [
+      "Intelligent robotics, autonomous vehicles, and drone intelligence",
+      "Multimodal perception, sensor fusion, and context-aware intelligence",
+      "Real-time and resource-constrained intelligent systems",
+      "AI-enabled cyber-physical systems and digital twin applications",
+      "Intelligent automation, industrial systems, and human–AI interaction",
+      "Reliable, resilient, and energy-efficient autonomous systems",
+    ],
+  },
 ];
-
 export const earlyBirdFees = [
   { type: "Academician", indian: "\u20B99,000", foreign: "US$ 300" },
   { type: "Industry Person", indian: "\u20B910,000", foreign: "US$ 400" },

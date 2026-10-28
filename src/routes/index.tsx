@@ -47,6 +47,15 @@ function Index() {
               </p>
             </div>
 
+            <div className="mt-8 max-w-4xl border-l-2 border-gold pl-5">
+              <p className="text-xs font-semibold uppercase tracking-widest text-gold">
+                Conference Theme
+              </p>
+              <p className="mt-2 font-display text-xl font-medium leading-relaxed text-navy-foreground md:text-2xl">
+                Intelligence at the Edge: AI-Native Computing, Connected Systems and Secure Autonomy
+              </p>
+            </div>
+
             <div className="mt-8 flex flex-wrap gap-4 text-sm text-navy-foreground/85">
               <span className="inline-flex items-center gap-2 rounded-full border border-navy-foreground/25 px-4 py-2">
                 <CalendarDays className="h-4 w-4 text-gold" /> May 28-29, 2027
@@ -120,7 +129,7 @@ function Index() {
       </section>
 
       <Section title="Conference Tracks">
-        <div className="grid gap-5 md:grid-cols-2 lg:grid-cols-3">
+        <div className="grid gap-5 md:grid-cols-2">
           {tracks.map((t) => (
             <article key={t.id} className="card-elevated flex flex-col p-6">
               <span className="eyebrow">{t.id}</span>
